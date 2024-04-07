@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4D870D9-EBA1-4C38-9FD1-718780241956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Console", "src\Zoo.Console\Zoo.Console.csproj", "{054F8588-B568-4184-8608-C3679C2CD674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Lib", "src\Zoo.Lib\Zoo.Lib.csproj", "{5C008E03-2C4F-4538-98D1-D0C635599222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{054F8588-B568-4184-8608-C3679C2CD674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054F8588-B568-4184-8608-C3679C2CD674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054F8588-B568-4184-8608-C3679C2CD674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054F8588-B568-4184-8608-C3679C2CD674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C008E03-2C4F-4538-98D1-D0C635599222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C008E03-2C4F-4538-98D1-D0C635599222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C008E03-2C4F-4538-98D1-D0C635599222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C008E03-2C4F-4538-98D1-D0C635599222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{054F8588-B568-4184-8608-C3679C2CD674} = {A4D870D9-EBA1-4C38-9FD1-718780241956}
+		{5C008E03-2C4F-4538-98D1-D0C635599222} = {A4D870D9-EBA1-4C38-9FD1-718780241956}
+	EndGlobalSection
+EndGlobal
