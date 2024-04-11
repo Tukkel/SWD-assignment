@@ -2,11 +2,11 @@
 
 namespace Calculator.Lib;
 
-public class Calculator
+public class TwoNumbers : ICalculator
 {
 	public double A { get; set; }
 	public double B { get; set; }
-	public Calculator(double a = 0, double b = 0) {
+	public TwoNumbers(double a = 0, double b = 0) {
 		A = a;
 		B = b;
 	}

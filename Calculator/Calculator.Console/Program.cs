@@ -8,12 +8,16 @@ namespace Zoo.Console
     {
         static void Main(string[] args)
         {
-            var calculator = new Calculator.Lib.Calculator(5, 10);
+            var twoNumbers = new TwoNumbers(5, 10);
+            var threeNumbers = new ThreeNumbers(5, 10, 15);
 			var adder = new Adder();
-			calculator.accept(adder);
+            var multiplier = new Multiplier();
+            
+			twoNumbers.accept(adder);
+            threeNumbers.accept(adder);
 
-			calculator.A = -5;
-			calculator.accept(adder);
+            twoNumbers.accept(multiplier);
+            threeNumbers.accept(multiplier);
         }
     }
 }

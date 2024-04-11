@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Calculator.Lib.Visitors
+namespace Calculator.Lib
 {
     public interface IVisitor
     {
-        void Visit(Calculator calculator);
+        void Visit(TwoNumbers calculator);
+        void Visit(ThreeNumbers calculator);
     }
 }
